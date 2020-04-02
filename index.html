@@ -12,10 +12,34 @@
         <!--it is a CSS file that is used to normalize the small differences between all the browsers-->
         <!--provided by scrimba-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <!--linking fontawesome stylesheet (for social icons)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
 
     </head>
 
     <body>
+        <!--adding header section that is top of section-->
+        <header>
+            <!-- header logo-->
+            <div class="logo">
+                <img src="img/nirajsharma.png" alt="">
+            </div>
+            <!--adding toggler button-->
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <!--adding navigation-->
+            <nav class="nav">
+                <!--adding sub-components to nav list-->
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
 
     </body>
 </html>
